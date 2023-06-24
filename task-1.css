@@ -1,0 +1,4 @@
+/* Изменить цвет фона первой строки таблицы */
+tr:first-child {
+	background-color: #f1f1f1;
+}

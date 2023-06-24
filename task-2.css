@@ -1,0 +1,18 @@
+/* Изменить цвет фона первой строки и первого столбца таблицы */
+tr:first-child,
+tr td:first-child {
+	background-color: #f1f1f1;
+}
+
+
+/* Стилизация заголовка таблицы */
+caption {
+	text-align: center;
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+/* Пустой элемент, который создаёт пробел на странице */
+.spacer {
+	height: 50px;
+}
